@@ -1,0 +1,59 @@
+/* INICIO LAYOUT SCSS*/
+.myNavBar{
+    font-size: $f-pequena; 
+    background-image: $gradientCeleste; 
+}
+
+.myNavBar__titulo{
+    font-size: $f-grande;
+}
+
+.myNavBar__buscar{
+    background: $colorCeleste
+}
+
+.myFooter{
+    background-image: $gradientCeleste;
+    color: white;
+}
+
+.myCard{
+    border: solid 1px $colorOscuro;
+    border-radius: 10px;
+    margin: 2px;
+    text-align: center;
+}
+.myCard--body{
+    text-align: center;
+    background-color: $colorCeleste;
+    border-end-start-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+}
+
+.myCard--body__titulo{
+    font-size: $f-normal;
+}
+.myCard--body__text{
+    font-size: 1rem;
+}
+.myCard--body__precio{
+    font-size: $f-grande;
+    color: $colorVerde;
+}
+
+.myCard--body__imagen{
+    max-height: 30vh; /*not want to take all vertical space*/
+    object-fit: contain;/*show all image, autosized, no cut, in available space*/
+}
+
+.mySideBar{
+    // position: fixed;
+    // float: left;
+
+    position: fixed;
+
+    top: 151px;
+    left: 5px;
+    
+}

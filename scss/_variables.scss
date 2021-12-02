@@ -1,0 +1,21 @@
+/*INICIO VARIABLES SCSS*/
+$tamano: xs, s, md, l, xl ,xxl;
+$medida: 1.00rem;
+
+@each $i in $tamano {   
+    .font-#{$i}{
+        font-size: $medida;
+        font-family: 'Oswald', sans-serif;
+    }
+    $medida: $medida + 0.25rem; 
+}
+
+$f-pequena: 1.5rem;
+$f-normal: 1.75rem;
+$f-mediana: 2rem;
+$f-grande: 2.25rem;
+
+$colorCeleste: rgb(230, 242, 255);
+$colorOscuro: rgb(33,37,41);
+$colorVerde: rgb(25,135,84);
+$gradientCeleste: linear-gradient(135deg, #1b1b4b 0%, #009ffd 74%);

@@ -1,0 +1,42 @@
+.formulario{
+    border: solid 2px $colorOscuro;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario__titulo{
+    @extend .font-xl;
+    background: $colorCeleste;
+}
+.formulario__input{
+    @extend .font-s;
+    display: block;
+    margin: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-left: .5rem;
+}
+
+.formulario__label{
+    @extend .font-s;
+}
+
+.formulario__boton{
+    @extend .font-md;
+    display: inline-block;
+    width: 40%;
+    border-radius: 5px;;
+}
+
+
+.formulario__boton--enviar{
+    background-image: $gradientCeleste;
+    color: white;
+}
+.formulario__boton--limpiar{
+    background-color: $colorCeleste;
+
+}
