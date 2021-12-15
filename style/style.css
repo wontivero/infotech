@@ -23,6 +23,7 @@ body {
     background-color: white;
     flex-direction: column;
     min-height: 100vh;
+    position: relative;
     /* padding: 5px; */
 
 }
@@ -160,55 +161,6 @@ th {
     display: inline-block;
 }
 
-.precio {
-    color: var(--colorPrincipalOscuro);
-    text-align: center;
-    font-size: 32px;
-
-}
-
-.botonComprar {
-    background-color: #00b712;
-    background-image: linear-gradient(360deg, #00b712 0%, #5aff15 74%);
-
-    width: 100%;
-    height: 50px;
-    padding: 5px 5px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 100% auto;
-    color: var(--colorPrincipalOscuro);
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
-    font-size: 16px;
-    display: block;
-
-}
-
-.botonComprar:hover {
-    background-position: center;
-    border: whitesmoke solid 2px;
-    font-size: 20px;
-
-
-    transition: 0.3s;
-}
-
-.imagenProducto {
-    height: 220px;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.imagenProducto:hover {
-    transform: scale(1.3, 1.3);
-    transition: .3s;
-}
-
 .iconoPrincipal {
     align-self: center;
     display: inline;
@@ -257,7 +209,7 @@ fieldset {
 .divPrincipalFlex {
     display: flex;
     flex-direction: column;
-     min-height: 100%;
+    min-height: 100%;
 }
 
 .headerFlex {
@@ -269,9 +221,6 @@ fieldset {
     position: sticky;
     top: 0px;
 }
-
-
-
 
 .divMenuFlex {
     background-color: white;

@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- SEO -->
-  <title>Productos de Informaticas</title>>
+  <title>Productos de Informaticas</title>
   <meta name="description"
     content=" En nuestra tienda informatica encuentras todos lo productos e insumos tecnológico que estás buscando en Córdoba">
   <meta name="keywords" content="productos informaticos, insumos informaticos, Pc, notebooks, impresora">
-  
+
 
   <!-- Boostrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -32,7 +32,7 @@
 <body>
   <!-- NAVBAR -->
 
-  <nav class="navbar navbar-expand-lg navbar-dark myNavBar" id="list-item-0">
+  <nav class="navbar navbar-expand-lg navbar-dark myNavBar fixed-top" id="INFOTECH">
     <div class="container-fluid">
       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
       <a href="index.html" class="me-4">
@@ -55,10 +55,11 @@
               Productos
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="productos.html">Categoria1</a></li>
-              <li><a class="dropdown-item" href="productos.html">Categoria2</a></li>
+              <li><a class="dropdown-item" href="productos.html#Cartuchos">Cartuchos</a></li>
+              <li><a class="dropdown-item" href="productos.html#Pendrives">Pendrives</a></li>
               <!-- <li><hr class="dropdown-divider"></li> -->
-              <li><a class="dropdown-item" href="productos.html">Categoria3</a></li>
+              <li><a class="dropdown-item" href="productos.html#Mouse-Teclado">Mouse - Teclado</a></li>
+              <li><a class="dropdown-item" href="productos.html#Red-WiFi">Red - WiFi</a></li>
             </ul>
           </li>
           <li class="nav-item mx-2">
@@ -81,502 +82,449 @@
   </nav>
   <!-- FIN NAVBAR -->
 
+
+
   <!-- <h2>Productos</h2> -->
-  <h2 class="text-center text-light bg-primary bg-gradient  bg-opacity-10 mt-3">PRODUCTOS</h2>
+  <!-- <h2 class="text-center text-light bg-primary bg-gradient  bg-opacity-10 mt-3">PRODUCTOS</h2> -->
 
-
-
-  <!-- nuevo -->
-
+<div class="container">
   <div class="row">
-    <div id="list-example" class="list-group col col-2 d-none d-md-flex  h-100 mySideBar ">
-      <a class="list-group-item list-group-item-action font-xl text-primary" href="#list-item-0">INFOTECH</a>
-      <a class="list-group-item list-group-item-action bg-light text-dark" href="#list-item-1">Cartuchos</a>
-      <a class="list-group-item list-group-item-action bg-light text-dark" href="#list-item-2">Pendrives</a>
-      <a class="list-group-item list-group-item-action bg-light text-dark" href="#list-item-3">Perifericos</a>
-      <a class="list-group-item list-group-item-action bg-light text-dark" href="#list-item-4">Conectividad</a>
+    <div class="col col-2 p-0">
+      <div id="list-example" class="list-group col col-2 d-none d-md-flex  h-90 mySideBar ">
+        <!-- <a class="list-group-item list-group-item-action font-xl" href="#INFOTECH">INFOTECH</a> -->
+        <a class="list-group-item list-group-item-action " href="#Cartuchos">Cartuchos</a>
+        <a class="list-group-item list-group-item-action  " href="#Pendrives">Pendrives</a>
+        <a class="list-group-item list-group-item-action " href="#Mouse-Teclado">Mouse-Teclado</a>
+        <a class="list-group-item list-group-item-action " href="#Red-WiFi">Red-WiFi</a>
+      </div>
     </div>
-    <div class="col col-2"></div>
 
-    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example col-md-10"
-      tabindex="0">
-      <h4 id="list-item-1" class="py-4">Cartuchos</h4>
+    
+    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example col-md-10 p-0">
 
-      <div>
-        <table border="1" cellpadding:=10 cellspacing="10">
-          <!-- Primer Fila -->
-          <tr>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
 
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-          </tr>
-          <!-- Segunda Fila -->
-          <tr>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-          </tr>
-        </table>
+      <!-- INICIO CARTUCHOS -->
+      <!-- <h4 id="Cartuchos" class="py-4">Cartuchos</h4> -->
+      <h2 id="Cartuchos" class="text-center text-primary  bg-light pt-5rem"">CARTUCHOS</h2>
+
+        <div class=" card-group row-cols-1 row-cols-md-2 row-cols-xl-4 g-4 m-0">
+
+        <div class="col">
+          <div class="card myCard h-90">
+            <img src="imagenes/productos/cartucho-hp-662-negro.png" class=" myCard--body__imagen img-fluid"
+              alt="Cartucho 662 Negro">
+            <div class="myCard--body">
+              <h5 class="myCard--body__titulo">HP 662 Negro</h5>
+              <p class="myCard--body__text">Some quick example text to build on the card title and make up the bulk of
+                the
+                card's
+                content.</p>
+            </div>
+            <div class="card-footer bg-transparent myCar--footer">
+              <h2 class="p-2 text-center myCard--body__precio">$1950</h2>
+              <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card myCard h-90">
+            <img src="imagenes/productos/cartucho-hp-662-color.png" class=" myCard--body__imagen img-fluid"
+              alt="Cartucho 662 color">
+            <div class="myCard--body">
+              <h5 class="myCard--body__titulo">HP 662 Color</h5>
+              <p class="myCard--body__text">Some quick example text to build on the card title and make up the bulk of
+                the
+                card's
+                content.</p>
+            </div>
+            <div class="card-footer bg-transparent myCar--footer">
+              <h2 class="p-2 text-center myCard--body__precio">$1950</h2>
+              <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card myCard h-90">
+            <img src="imagenes/productos/cartucho-hp-662-negro-xl.png" class=" myCard--body__imagen img-fluid"
+              alt="Cartucho 662 Negro XL">
+            <div class="myCard--body">
+              <h5 class="myCard--body__titulo">HP 662 Negro XL</h5>
+              <p class="myCard--body__text">Some quick example text to build on the card title and make up the bulk of
+                the
+                card's
+                content.</p>
+            </div>
+            <div class="card-footer bg-transparent myCar--footer">
+              <h2 class="p-2 text-center myCard--body__precio">$4850</h2>
+              <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card myCard h-90">
+            <img src="imagenes/productos/cartucho-hp-662-color-xl.png" class=" myCard--body__imagen img-fluid"
+              alt="Cartucho 662 color xl">
+            <div class="myCard--body">
+              <h5 class="myCard--body__titulo">HP 662 Color XL</h5>
+              <p class="myCard--body__text">Some quick example text to build on the card title and make up the bulk of
+                the
+                card's
+                content.</p>
+            </div>
+            <div class="card-footer bg-transparent myCar--footer">
+              <h2 class="p-2 text-center myCard--body__precio">$4950</h2>
+              <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+    <!--  -->
+
+
+
+    <!-- <h4 id="Pendrives" class="py-4">Pendrives</h4> -->
+    <!-- INICIO CARTUCHOS -->
+    <!-- <h4 id="Cartuchos" class="py-4">Cartuchos</h4> -->
+    <h2 id="Pendrives" class="text-center text-primary  bg-light pt-5rem col-10"">PENDRIVES</h2>
+
+      <div class=" card-group row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
+
+      <div class="col">
+        <div class="card myCard h-90">
+          <img src="imagenes/productos/pendrive-kingston-dtkn-32gb.jpg" class=" myCard--body__imagen img-fluid"
+            alt="Pendrive kingston 32gb">
+          <div class="myCard--body">
+            <h5 class="myCard--body__titulo">Kingston 32GB</h5>
+            <p class="myCard--body__text">Some quick example text to build on the card title and make up the bulk
+              of
+              the
+              card's
+              content.</p>
+          </div>
+          <div class="card-footer bg-transparent myCar--footer">
+            <h2 class="p-2 text-center myCard--body__precio">$890</h2>
+            <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+          </div>
+        </div>
       </div>
 
-      <h4 id="list-item-2" class="py-4">Pendrives</h4>
-      <div>
-        <table border="1" cellpadding:=10 cellspacing="10">
-          <!-- Primer Fila -->
-          <tr>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-          </tr>
-          <!-- Segunda Fila -->
-          <tr>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-          </tr>
-        </table>
+      <div class="col">
+        <div class="card myCard h-90">
+          <img src="imagenes/productos/pendrive-kingston-dtkn-64gb.jpg" class=" myCard--body__imagen img-fluid"
+            alt="Pendrive kingston 64gb">
+          <div class="myCard--body">
+            <h5 class="myCard--body__titulo">Kingston 64GB</h5>
+            <p class="myCard--body__text">Some quick example text to build on the card title and make up the bulk
+              of
+              the
+              card's
+              content.</p>
+          </div>
+          <div class="card-footer bg-transparent myCar--footer">
+            <h2 class="p-2 text-center myCard--body__precio">$1690</h2>
+            <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+          </div>
+        </div>
       </div>
-      <h4 id="list-item-3" class="py-4">Perifericos</h4>
-      <div>
-        <table border="1" cellpadding:=10 cellspacing="10">
-          <!-- Primer Fila -->
-          <tr>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
 
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-          </tr>
-          <!-- Segunda Fila -->
-          <tr>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-          </tr>
-        </table>
+      <div class="col">
+        <div class="card myCard h-90">
+          <img src="imagenes/productos/pendrive-kingston-dtkn-128gb.jpg" class=" myCard--body__imagen img-fluid"
+            alt="Pendrive kingston 128gb">
+          <div class="myCard--body">
+            <h5 class="myCard--body__titulo">Kingston 128GB</h5>
+            <p class="myCard--body__text">Some quick example text to build on the card title and make up the bulk
+              of
+              the
+              card's
+              content.</p>
+          </div>
+          <div class="card-footer bg-transparent myCar--footer">
+            <h2 class="p-2 text-center myCard--body__precio">$3450</h2>
+            <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+          </div>
+        </div>
       </div>
-      <h4 id="list-item-4" class="py-4">Conectividad</h4>
-      <div>
-        <table border="1" cellpadding:=10 cellspacing="10">
-          <!-- Primer Fila -->
-          <tr>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
 
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-          </tr>
-          <!-- Segunda Fila -->
-          <tr>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-            <td>
-              <img class="imagenProducto" src="imagenes/productos/pendrive-kingston-dt106-32gb.jpg"
-                alt="pendrive-kingston-dt106-32gb" />
-              <hr />
-              <div class="productoDetalles">
-                <span class="tituloProducto">Nombre del Producto</span>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque eum ut possimus architecto at.</p>
-                <br>
-                <span class="precio">$888</span>
-                <input type="button" class="botonComprar" value="Comprar" />
-              </div>
-            </td>
-          </tr>
-        </table>
+      <div class="col">
+        <div class="card myCard h-90">
+          <img src="imagenes/productos/pendrive-kingston-dtkn-256gb.jpg" class=" myCard--body__imagen img-fluid"
+            alt="Pendrive kingston 256gb">
+          <div class="myCard--body">
+            <h5 class="myCard--body__titulo">Kingston 256GB</h5>
+            <p class="myCard--body__text">Some quick example text to build on the card title and make up the bulk
+              of
+              the
+              card's
+              content.</p>
+          </div>
+          <div class="card-footer bg-transparent myCar--footer">
+            <h2 class="p-2 text-center myCard--body__precio">$5550</h2>
+            <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card myCard h-90">
+          <img src="imagenes/productos/pendrive-kingston-dt100-32gb.jpg" class=" myCard--body__imagen img-fluid"
+            alt="Pendrive kingston 32gb">
+          <div class="myCard--body">
+            <h5 class="myCard--body__titulo">Kingston 32GB</h5>
+            <p class="myCard--body__text">Some quick example text to build on the card title and make up the bulk
+              of
+              the
+              card's
+              content.</p>
+          </div>
+          <div class="card-footer bg-transparent myCar--footer">
+            <h2 class="p-2 text-center myCard--body__precio">$820</h2>
+            <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card myCard h-90">
+          <img src="imagenes/productos/pendrive-kingston-dt100-64gb.jpg" class=" myCard--body__imagen img-fluid"
+            alt="Pendrive kingston 64gb">
+          <div class="myCard--body">
+            <h5 class="myCard--body__titulo">Kingston 64GB</h5>
+            <p class="myCard--body__text">Some quick example text to build on the card title and make up the bulk
+              of
+              the
+              card's
+              content.</p>
+          </div>
+          <div class="card-footer bg-transparent myCar--footer">
+            <h2 class="p-2 text-center myCard--body__precio">$1490</h2>
+            <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card myCard h-90">
+          <img src="imagenes/productos/pendrive-kingston-dt100-128gb.jpg" class=" myCard--body__imagen img-fluid"
+            alt="Pendrive kingston 128gb">
+          <div class="myCard--body">
+            <h5 class="myCard--body__titulo">Kingston 128GB</h5>
+            <p class="myCard--body__text">Some quick example text to build on the card title and make up the bulk
+              of
+              the
+              card's
+              content.</p>
+          </div>
+          <div class="card-footer bg-transparent myCar--footer">
+            <h2 class="p-2 text-center myCard--body__precio">$2950</h2>
+            <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card myCard h-90">
+          <img src="imagenes/productos/pendrive-kingston-dtx-128gb-3-lg.jpg" class=" myCard--body__imagen img-fluid"
+            alt="Pendrive kingston 256gb">
+          <div class="myCard--body">
+            <h5 class="myCard--body__titulo">Kingston 128GB</h5>
+            <p class="myCard--body__text">Some quick example text to build on the card title and make up the bulk
+              of
+              the
+              card's
+              content.</p>
+          </div>
+          <div class="card-footer bg-transparent myCar--footer">
+            <h2 class="p-2 text-center myCard--body__precio">$2820</h2>
+            <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+  <!--  -->
+  <!-- <h4 id="Mouse-Teclado" class="py-4">Perifericos</h4> -->
+  <!-- INICIO CARTUCHOS -->
+  <!-- <h4 id="Cartuchos" class="py-4">Cartuchos</h4> -->
+  <h2 id="Mouse-Teclado" class="text-center text-primary  bg-light pt-5rem">MOUSE - TECLADO
+  </h2>
+
+  <div class=" card-group row-cols-1 row-cols-md-2 row-cols-xl-4 g-4 m-0">
+
+    <div class="col">
+      <div class="card myCard h-90">
+        <img src="imagenes/productos/mouse-logitech-m170-gris.png" class=" myCard--body__imagen img-fluid"
+          alt="mouse logitech m170 gris">
+        <div class="myCard--body">
+          <h5 class="myCard--body__titulo">Logitech M170</h5>
+          <p class="myCard--body__text">Some quick example text to build on the card title and make up the
+            bulk of
+            the
+            card's
+            content.</p>
+        </div>
+        <div class="card-footer bg-transparent myCar--footer">
+          <h2 class="p-2 text-center myCard--body__precio">$1450</h2>
+          <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card myCard h-90">
+        <img src="imagenes/productos/mouse-logitech-m170-rojo.png" class=" myCard--body__imagen img-fluid"
+          alt="mouse logitech m170 rojo">
+        <div class="myCard--body">
+          <h5 class="myCard--body__titulo">Logitech M170</h5>
+          <p class="myCard--body__text">Some quick example text to build on the card title and make up the
+            bulk of
+            the
+            card's
+            content.</p>
+        </div>
+        <div class="card-footer bg-transparent myCar--footer">
+          <h2 class="p-2 text-center myCard--body__precio">$1450</h2>
+          <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card myCard h-90">
+        <img src="imagenes/productos/mouse-genius-NX-7010-rosa.jpg" class=" myCard--body__imagen img-fluid"
+          alt="Mouse genius nx7010 rosa">
+        <div class="myCard--body">
+          <h5 class="myCard--body__titulo">Genius NX-7010</h5>
+          <p class="myCard--body__text">Some quick example text to build on the card title and make up the
+            bulk of
+            the
+            card's
+            content.</p>
+        </div>
+        <div class="card-footer bg-transparent myCar--footer">
+          <h2 class="p-2 text-center myCard--body__precio">$1350</h2>
+          <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card myCard h-90">
+        <img src="imagenes/productos/mouse-genius-NX-7010-celeste.jpg" class=" myCard--body__imagen img-fluid"
+          alt="Mouse genius nx7010 celeste">
+        <div class="myCard--body">
+          <h5 class="myCard--body__titulo">Genius NX-7010</h5>
+          <p class="myCard--body__text">Some quick example text to build on the card title and make up the
+            bulk of
+            the
+            card's
+            content.</p>
+        </div>
+        <div class="card-footer bg-transparent myCar--footer">
+          <h2 class="p-2 text-center myCard--body__precio">$1350</h2>
+          <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+        </div>
       </div>
     </div>
   </div>
 
+  <!--  -->
+  <!-- <h4 id="Red-WiFi" class="py-4">Conectividad</h4> -->
+  <!-- INICIO CARTUCHOS -->
+  <!-- <h4 id="Cartuchos" class="py-4">Cartuchos</h4> -->
+  <h2 id="Red-WiFi" class="text-center text-primary  bg-light pt-5rem">RED - WIFI</h2>
 
+  <div class=" card-group row-cols-1 row-cols-md-2 row-cols-xl-4 g-4 m-0">
 
+    <div class="col">
+      <div class="card myCard h-90">
+        <img src="imagenes/productos/router-TL-WR820N.jpg" class=" myCard--body__imagen img-fluid" alt="router wr820n">
+        <div class="myCard--body">
+          <h5 class="myCard--body__titulo">Router WR820N</h5>
+          <p class="myCard--body__text">Some quick example text to build on the card title and make up the
+            bulk of
+            the
+            card's
+            content.</p>
+        </div>
+        <div class="card-footer bg-transparent myCar--footer">
+          <h2 class="p-2 text-center myCard--body__precio">$2250</h2>
+          <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+        </div>
+      </div>
+    </div>
 
+    <div class="col">
+      <div class="card myCard h-90">
+        <img src="imagenes/productos/router-TL-WR840N.jpg" class=" myCard--body__imagen img-fluid" alt="router wr840N">
+        <div class="myCard--body">
+          <h5 class="myCard--body__titulo">Router WR840N</h5>
+          <p class="myCard--body__text">Some quick example text to build on the card title and make up the
+            bulk of
+            the
+            card's
+            content.</p>
+        </div>
+        <div class="card-footer bg-transparent myCar--footer">
+          <h2 class="p-2 text-center myCard--body__precio">$2650</h2>
+          <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card myCard h-90">
+        <img src="imagenes/productos/wifi-TL-WN722N.jpg" class=" myCard--body__imagen img-fluid" alt="USB WN722N">
+        <div class="myCard--body">
+          <h5 class="myCard--body__titulo">USB WN722N</h5>
+          <p class="myCard--body__text">Some quick example text to build on the card title and make up the
+            bulk of
+            the
+            card's
+            content.</p>
+        </div>
+        <div class="card-footer bg-transparent myCar--footer">
+          <h2 class="p-2 text-center myCard--body__precio">$1950</h2>
+          <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card myCard h-90">
+        <img src="imagenes/productos/wifi-TL-WN725N.jpg" class=" myCard--body__imagen img-fluid" alt="USB wn725n">
+        <div class="myCard--body">
+          <h5 class="myCard--body__titulo">USB WN725N</h5>
+          <p class="myCard--body__text">Some quick example text to build on the card title and make up the
+            bulk of
+            the
+            card's
+            content.</p>
+        </div>
+        <div class="card-footer bg-transparent myCar--footer">
+          <h2 class="p-2 text-center myCard--body__precio">$1350</h2>
+          <a href="#" class="btn btn-outline-primary rounded-pill col-11 m-1">COMPRAR</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  </div>
+</div>
+  <!--  -->
 
 
   <!-- FOOTER -->
-
-  <footer class="d-flex mt-auto justify-content-around align-items-center p-3 border-top text-light myFooter">
+  <br>
+  <footer class=" d-flex mt-auto justify-content-around align-items-center p-3 border-top text-light myFooter">
 
     <div class="col-md-6 d-flex align-items-center ">
       <h4>AV. Revolución de Mayo 1758</h4>
@@ -596,10 +544,15 @@
 
 
   </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
+  <script>
+    var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+      target: '#navbar-example'
+    })
+  </script>
+
 </body>
 
 </html>
