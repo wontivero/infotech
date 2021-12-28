@@ -194,8 +194,9 @@ th {
 
 .parrafoNosotros{
     display: inline-block;
-    width: 70%;    
+    width: 80%;    
     margin: 1rem;
+    text-align: justify;
 }
 
 fieldset {
@@ -375,3 +376,4 @@ footer {
 .ocultame{
     display: none;
 }
+

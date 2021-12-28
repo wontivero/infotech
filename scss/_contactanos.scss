@@ -1,33 +1,34 @@
 /* INICIO CONTACTANOS*/
 
 .formulario{
-    border: solid 2px $colorOscuro;
-    text-align: center;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    @extend .font-xs;
+    // border: solid 2px $colorOscuro;
+    // text-align: center;
+    // width: 100%;
+    // margin-left: auto;
+    // margin-right: auto;
+    //background-color: $colorCeleste;
 }
 
 .formulario__titulo{
     @extend .font-xl;
-    background: $colorCeleste;
+    text-align: center;
 }
 .formulario__input{
-    @extend .font-s;
     display: block;
     margin: .5rem;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100%;
     padding-left: .5rem;
 }
 
 .formulario__label{
-    @extend .font-s;
-}
+    // @extend .font-xs;
+    
+    }
 
 .formulario__boton{
-    @extend .font-md;
     display: inline-block;
     width: 40%;
     border-radius: 5px;;
@@ -43,4 +44,19 @@
 
 }
 
+.maps {
+    position: relative;
+    padding-bottom: 40%; 
+    height: 0;
+    overflow: hidden;
+    
+    
+}
+.maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
 /* FIN CONTACTANOS*/

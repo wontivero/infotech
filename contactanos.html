@@ -10,7 +10,7 @@
   <meta name="description"
     content="Si tienes consultas o dudas, contactanos y te responderemos a la brevedad por el medio que prefieras.">
   <meta name="keywords" content="consultas, contactanos, insumos, servicio tecnico, tienda informatica">
-  
+
 
 
   <!-- Boostrap -->
@@ -86,29 +86,34 @@
   <fieldset class="formulario">
     <legend class="formulario__titulo">Formulario de contacto</legend>
 
-    <div class="">
-      <form action="">
-        <label for="nombre" class="formulario__label">Nombre: </label>
-        <input type="text" name="nombre" class="formulario__input">
-        <label for="apellido" class="formulario__label">Apellido: </label>
-        <input type="text" name="apellido" class="formulario__input">
-        <label for="email" class="formulario__label">Email: </label>
-        <input type="text" name="email" class="formulario__input">
-        <label for="tel" class="formulario__label">Telefono: </label>
-        <input type="text" name="telefono" class="formulario__input">
-        <label for="" class="formulario__label">Quiero q me respondan por: </label>
-        <select name="" id="" class="formulario__input">
-          <option value="email">Email</option>
-          <option value="llamada">Llamada</option>
-          <option value="whatsapp">Whatsapp</option>
-        </select>
-        <label for="consulta" class="formulario__label">Consulta: </label>
-        <textarea name="consulta" id="" cols="30" rows="7" class="formulario__input"></textarea>
-    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col align-self-center col-8 mt-2 maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10102.779031856786!2d-64.16096853997844!3d-31.441348796495053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2a69724615f%3A0x5339542a1c527b46!2sInfo%20Tech%20Computacion%20Librer%C3%ADa!5e0!3m2!1ses-419!2sar!4v1640648968280!5m2!1ses-419!2sar"
+            allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="col col-4 justify-content-center">
+          <form action="">
+          <label for="nombre" class="formulario__label">Nombre: </label>
+          <input type="text" name="nombre" class="formulario__input">
+          <label for="apellido" class="formulario__label">Apellido: </label>
+          <input type="text" name="apellido" class="formulario__input">
+          <label for="email" class="formulario__label">Email: </label>
+          <input type="email" name="email" class="formulario__input">
+          <label for="tel" class="formulario__label">Telefono: </label>
+          <input type="text" name="telefono" class="formulario__input">
+            <label for="consulta" class="formulario__label">Consulta: </label>
+            <textarea name="consulta" id="" cols="30" rows="5" class="formulario__input"></textarea>
+            <div class="text-end">
+              <input class="formulario__boton formulario__boton--limpiar" type="reset" value="Limpiar formulario">
+              <input class="formulario__boton formulario__boton--enviar" type="submit" value="Enviar consulta">
+            </div>
+          </form>
+        </div>
 
-      <input class="formulario__boton formulario__boton--limpiar" type="reset" value="Limpiar formulario">
-      <input class="formulario__boton formulario__boton--enviar" type="submit" value="Enviar consulta">
-    </form>
+      </div>
+    </div>
   </fieldset>
 
 
