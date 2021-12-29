@@ -194,9 +194,10 @@ th {
 
 .parrafoNosotros{
     display: inline-block;
-    width: 80%;    
+    /* width: 80%;     */
     margin: 1rem;
     text-align: justify;
+    padding-top: .5rem;;
 }
 
 fieldset {
