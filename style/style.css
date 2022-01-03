@@ -77,9 +77,7 @@ td {
 
 }
 
-li {
-    list-style: none;
-}
+
 
 th {
     color: white;
@@ -192,13 +190,13 @@ th {
     border: solid 0;
 }
 
-.parrafoNosotros{
+/* .parrafoNosotros{
     display: inline-block;
-    /* width: 80%;     */
+
     margin: 1rem;
     text-align: justify;
-    padding-top: .5rem;;
-}
+    padding-top: .3rem;;
+} */
 
 fieldset {
     margin: 10px;

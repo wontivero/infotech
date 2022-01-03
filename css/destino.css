@@ -24,12 +24,15 @@
   font-family: 'Oswald', sans-serif; }
 
 /* INICIO LAYOUT SCSS*/
+li {
+  list-style: none; }
+
 .myNavBar {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   background-image: linear-gradient(135deg, #1b1b4b 0%, #009ffd 74%); }
 
 .myNavBar__titulo {
-  font-size: 2.25rem; }
+  font-size: 2rem; }
 
 .myNavBar__buscar {
   background: #e6f2ff; }
@@ -52,17 +55,17 @@
   padding: 5px; }
 
 .myCard--body__titulo {
-  font-size: 1.75rem; }
+  font-size: 1.5rem; }
 
 .myCard--body__text {
   font-size: 1rem; }
 
 .myCard--body__precio {
-  font-size: 2.25rem;
+  font-size: 2rem;
   color: #198754; }
 
 .myCard--body__imagen {
-  max-height: 30vh;
+  height: 30vh;
   /*not want to take all vertical space*/
   object-fit: contain;
   /*show all image, autosized, no cut, in available space*/ }
@@ -105,9 +108,6 @@
 
 /* FIN CONTACTANOS*/
 /* INICIO PRODUCTOS*/
-.pt-5rem {
-  padding-top: 5rem; }
-
 .precio {
   text-align: center;
   font-size: 32px; }
@@ -146,3 +146,7 @@
   transition: .3s; }
 
 /* FIN PRODUCTOS*/
+.cuerpo {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Lora', serif; }

@@ -1,32 +1,39 @@
 /* INICIO LAYOUT SCSS*/
-.myNavBar{
+li {
+    list-style: none;
+}
+
+
+
+.myNavBar {
     font-size: $f-pequena;
     background-image: $gradientCeleste;
 
 }
 
-.myNavBar__titulo{
+.myNavBar__titulo {
     font-size: $f-grande;
 }
 
-.myNavBar__buscar{
+.myNavBar__buscar {
     background: $colorCeleste
 }
 
-.myFooter{
+.myFooter {
     background-image: $gradientCeleste;
     color: white;
-    
+
 }
 
-.myCard{
+.myCard {
     border: solid 1px $colorOscuro;
     border-radius: 10px;
     margin: 4px;
     text-align: center;
     // background-color: $colorCeleste;
 }
-.myCard--body{
+
+.myCard--body {
     text-align: center;
     background-color: $colorCeleste;
     border-end-start-radius: 10px;
@@ -34,29 +41,34 @@
     padding: 5px;
 }
 
-.myCard--body__titulo{
+.myCard--body__titulo {
     font-size: $f-normal;
 }
-.myCard--body__text{
+
+.myCard--body__text {
     font-size: 1rem;
 }
-.myCard--body__precio{
+
+.myCard--body__precio {
     font-size: $f-grande;
     color: $colorVerde;
 }
 
-.myCard--body__imagen{
-    max-height: 30vh; /*not want to take all vertical space*/
-    object-fit: contain;/*show all image, autosized, no cut, in available space*/
+.myCard--body__imagen {
+    height: 30vh;
+    /*not want to take all vertical space*/
+    object-fit: contain;
+    /*show all image, autosized, no cut, in available space*/
 }
-.myCar--footer{
+
+.myCar--footer {
     // height: 10rem;
     // background-color: white;
     // width: 100%;
 }
 
 
-.mySideBar{
+.mySideBar {
     // position: fixed;
     // float: left;
 
