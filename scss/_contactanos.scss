@@ -2,12 +2,6 @@
 
 .formulario{
     @extend .font-xs;
-    // border: solid 2px $colorOscuro;
-    // text-align: center;
-    // width: 100%;
-    // margin-left: auto;
-    // margin-right: auto;
-    //background-color: $colorCeleste;
 }
 
 .formulario__titulo{
@@ -23,26 +17,12 @@
     padding-left: .5rem;
 }
 
-.formulario__label{
-    // @extend .font-xs;
-    
-    }
 
 .formulario__boton{
     display: inline-block;
     width: 40%;
     border-radius: 5px;;
 }
-
-
-// .formulario__boton--enviar{
-//     background-image: $gradientCeleste;
-//     color: white;
-// }
-// .formulario__boton--limpiar{
-//     background-color: $colorCeleste;
-
-// }
 
 .maps {
     position: relative;

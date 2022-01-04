@@ -23,7 +23,14 @@
   font-size: 2.25rem;
   font-family: 'Oswald', sans-serif; }
 
+/*FIN VARIABLES SCSS */
 /* INICIO LAYOUT SCSS*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400; }
+
 li {
   list-style: none; }
 
@@ -49,7 +56,6 @@ li {
 
 .myCard--body {
   text-align: center;
-  background-color: #e6f2ff;
   border-end-start-radius: 10px;
   border-bottom-right-radius: 10px;
   padding: 5px; }
@@ -66,9 +72,7 @@ li {
 
 .myCard--body__imagen {
   height: 30vh;
-  /*not want to take all vertical space*/
-  object-fit: contain;
-  /*show all image, autosized, no cut, in available space*/ }
+  object-fit: contain; }
 
 .mySideBar {
   position: fixed;
@@ -76,6 +80,110 @@ li {
   top: 100px;
   left: 0px; }
 
+/*FIN LAYOUT SCSS*/
+/*INICIO SCSS index*/
+:root {
+  --colorCeleste: rgb(160, 204, 250);
+  --colorAzul: rgb(40, 90, 255);
+  --colorVerde: rgb(145, 198, 18);
+  --gradietCelesteClaro: linear-gradient(180deg, #63a4ff 0%, #83eaf1 74%);
+  --gradietCelesteClaroInvertido: linear-gradient(180deg, #63a4ff 0%, #83eaf1 74%); }
+
+body {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  /* padding: 5px; */ }
+
+html {
+  min-height: 100vh; }
+
+section {
+  background-color: white;
+  text-align: center;
+  margin: 5px;
+  /* border: var(--colorAzul) solid 3px; */ }
+
+header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  color: white; }
+
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  background-color: var(--colorAzul); }
+
+a {
+  text-decoration: none;
+  color: var(--colorAzul); }
+
+i {
+  margin: 0 5px; }
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Lora', serif; }
+
+td {
+  padding: 5px; }
+
+th {
+  color: white;
+  background-color: var(--colorAzul);
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 20px; }
+
+.productoDetalles {
+  background-color: #63a4ff;
+  background-image: var(--gradietCelesteClaro);
+  background-size: cover;
+  padding: 10px;
+  text-align: center; }
+
+.tituloProducto {
+  color: var(--colorAzul);
+  text-align: center;
+  font-size: 28px; }
+
+.noticias {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 40px;
+  background-color: white;
+  float: left;
+  text-align: center; }
+
+.iconoPrincipal {
+  align-self: center;
+  display: inline;
+  margin-bottom: 5px;
+  color: var(--gradietCelesteClaro);
+  animation-name: cambiarColor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite; }
+
+@keyframes cambiarColor {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; } }
+
+.ocultame {
+  display: none; }
+
+/* FIN SCSS index*/
 /* INICIO CONTACTANOS*/
 .formulario__titulo {
   text-align: center; }
@@ -146,7 +254,10 @@ li {
   transition: .3s; }
 
 /* FIN PRODUCTOS*/
+/*INICIO SCSS blog*/
 .cuerpo {
   font-size: 14px;
   font-weight: 400;
   font-family: 'Lora', serif; }
+
+/*FIN SCSS blog*/
